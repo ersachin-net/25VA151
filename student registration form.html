@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form method="post" action="/submit-registration">
+        <h2>Student Registration Form</h2>
+        
+        <p>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+        </p>
+        
+        <p>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+        </p>
+        
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email (e.g., example@domain.com)" required>
+        </p>
+        
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+        </p>
+        
+        <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </p>
+        
+        <p>
+            <label for="grade">Grade Level:</label>
+            <select id="grade" name="grade" required>
+                <option value="" disabled selected>Select your grade</option>
+                <option value="9">9th Grade</option>
+                <option value="10">10th Grade</option>
+                <option value="11">11th Grade</option>
+                <option value="12">12th Grade</option>
+            </select>
+        </p>
+        
+        <p>
+            <input type="submit" value="Register">
+        </p>
+    </form>
+</body>
+</html>
