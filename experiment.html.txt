@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin News Portal - Daily Updates</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        header {
+            background-color: #9C27B0;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #9932CC;
+            border-bottom: 2px solid #9932CC;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            background-color: #9C27B0;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        iframe, video, audio {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        img {
+            width: 45%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #9932CC;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sachin News Portal</h1>
+        <p>Your source for the latest updates - October 16, 2025</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#national">National</a>
+        <a href="#international">International</a>
+        <a href="#sports">Sports</a>
+        <a href="#entertainment">Entertainment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Top Headlines</h2>
+        <p><b>Breaking News:</b> Russia launches 300 drones at Ukraine ahead of Zelenskyy-Trump meeting.</p>
+        <img src="https://i.abcnewsfe.com/a/067c7aaf-9ded-4ac7-8d4c-bdfffb8b5789/ukraine-main_1760600248697_hpMain_16x9.jpg" alt="Image of Ukraine drone attack">
+    </section>
+
+    <section id="national">
+        <h2>National News</h2>
+        <p>Schools across India to observe holidays for Diwali celebrations starting from October 18, 2025, ushering in a festive period.</p>
+        <a href="https://indianexpress.com/article/education/october-state-wise-school-colleges-holidays-diwali-chhath-puja-bhai-dooj-kali-puja-10309895/" target="_blank">Read More on Indian Express</a>
+        
+        <h3>Watch Diwali 2025 Puja Guide</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XHnviSVgVeI" title="Diwali Video" frameborder="0" allowfullscreen></iframe>
+        
+        <h3>Listen to Announcement Audio</h3>
+        <audio controls>
+            <source src="https://www.soundjay.com/misc/sounds/notification-3.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="international">
+        <h2>International News</h2>
+        <p>Trump escalates pressure on Venezuela by authorizing covert CIA operations.</p>
+        <h3>Watch Latest UN Update</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/E9wDCKIvV3c" title="UN Video" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="sports">
+        <h2>Sports Highlights</h2>
+        <h3>Team India Begins Training in Perth Ahead of ODI Series Against Australia</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sVBGlU5e3TY" title="Cricket Video" frameborder="0" allowfullscreen></iframe>
+        <p>Virat Kohli and Rohit Sharma set the tone in nets after arriving in Perth. Watch the first practice session from October 16, 2025.</p>
+    </section>
+
+    <section id="entertainment">
+        <h2>Entertainment</h2>
+        <p>Relive the fun with the classic Motu Patlu Title Song!</p>
+        <audio controls>
+            <source src="https://pagallworld.co.in/wp-content/uploads/2023/02/Motu-Aur-Patlu-Ki-Jodi-song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Sing along with Motu and Patlu's adventures.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Mobile: XXXXXXXXXX</p>
+        <p>Email: abc@gmail.com</p>
+        <p>Send us your feedback at news@mayankportal.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sachin News Portal | Made by <b>Sachin</b></p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
